@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Register.Broker.Storeage
+namespace Register.Service
 {
-    internal interface IStoreageBroker
+    internal interface IUserService
     {
-        bool CheckoutUser(Users user);
-        Users SignUpUser(Users user);
+        bool LogIn(Users user);
+        Users SignUp(Users user);
     }
 }
