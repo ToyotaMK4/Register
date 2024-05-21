@@ -1,4 +1,7 @@
-﻿using Register.Models;
+﻿//----------------------------------------
+// Great Code Team (c) All rights reserved
+//----------------------------------------
+using Register.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

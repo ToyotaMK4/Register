@@ -1,4 +1,7 @@
-﻿using System;
+﻿//----------------------------------------
+// Great Code Team (c) All rights reserved
+//----------------------------------------
+using System;
 using Register.Broker.Storeage;
 using Register.Models;
 using Register.Service;
