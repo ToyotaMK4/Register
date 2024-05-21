@@ -1,4 +1,7 @@
-﻿using Register.Broker.Logging;
+﻿//----------------------------------------
+// Great Code Team (c) All rights reserved
+//----------------------------------------
+using Register.Broker.Logging;
 using Register.Broker.Storeage;
 using Register.Models;
 using System;
@@ -19,7 +22,6 @@ namespace Register.Service
         {
             this.loggingBroker = new LoggingBroker();
             this.storeageBroker = new StoreageBroker();
-            
         }
 
         public bool LogIn(Users user)
